@@ -1,0 +1,9 @@
+[project]
+name = "dkim-splitter"
+version = "0.1.0"
+description = "A simple, CLI tool to split long **DKIM TXT records** into
+**255-character chunks** for AWS Route 53 (or any DNS provider that enforces
+the DNS TXT record length limit)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
